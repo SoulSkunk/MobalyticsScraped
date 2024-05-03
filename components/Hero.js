@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -33,12 +34,20 @@ export default function Hero() {
           innovants.
         </p>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 md:justify-end">
-          <button className="btn btn-base btn-primary text-base-100">
+          <Link
+            href="#announcement"
+            className="btn btn-base btn-primary text-base-100"
+          >
             Voir les dernières actus
-          </button>
-          <button className="btn btn-base btn-primary text-base-100">
-            Destiny 2
-          </button>
+          </Link>
+          <a
+            href="https://www.bungie.net/7/fr/Destiny/NewLight"
+            target="_blank"
+          >
+            <button className="btn btn-base btn-primary text-base-100">
+              Destiny 2
+            </button>
+          </a>
         </div>
       </div>
     </div>

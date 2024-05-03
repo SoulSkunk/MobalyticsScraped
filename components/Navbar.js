@@ -17,16 +17,23 @@ export default function Navbar() {
                 <summary>Dev</summary>
                 <ul className="p-2 bg-base-100 rounded-t-none">
                   <li>
-                    <a>LinkedIn</a>
+                    <a
+                      href="https://www.linkedin.com/in/kylian-broccolichi-015141271/"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
                   </li>
                   <li>
-                    <a>Portfolio</a>
+                    <a href="https://broccolichi-kylian-portfolio.vercel.app">
+                      Portfolio
+                    </a>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <a>Explications</a>
+              <a href="https://github.com/SoulSkunk">Code</a>
             </li>
           </ul>
         </div>

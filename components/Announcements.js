@@ -23,7 +23,7 @@ export default async function Announcements() {
     <>
       <div>
         {/* Colonne */}
-        <div className="mt-10">
+        <div id="announcement" className="mt-10">
           <h1 className="text-5xl font-bold mb-8 md:mb-12">
             Les dernières actus
           </h1>
